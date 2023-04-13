@@ -33,7 +33,7 @@ class LocationFilterAppBar extends StatelessWidget {
                   Icon(
                     Icons.expand_more_rounded,
                     color: Colors.grey,
-                    size: 12.sp,
+                    size: 18.sp,
                   ),
                 ],
               ),
@@ -43,7 +43,7 @@ class LocationFilterAppBar extends StatelessWidget {
                   child: Icon(
                     Icons.filter_alt,
                     color: Colors.grey,
-                    size: 12.sp,
+                    size: 20.sp,
                   ),
                   onTap: () {
                     showModalBottomSheet(
